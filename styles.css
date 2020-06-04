@@ -1,15 +1,15 @@
 /*general format*/	
 @font-face {
     font-family: forte;
-    src: url(font/FORTE.TTF);
+    src: url(assets/font/FORTE.TTF);
 }
 @font-face {
     font-family: open sans;
-    src: url(font/OpenSans-Regular.ttf);
+    src: url(assets/font/OpenSans-Regular.ttf);
 }
 @font-face {
     font-family: open sans light;
-    src: url(font/OpenSans-Light.ttf);
+    src: url(assets/font/OpenSans-Light.ttf);
 }
 *{
 	font-family:"open sans",Verdana,sans-serif;
