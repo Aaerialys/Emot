@@ -1,0 +1,134 @@
+/*general format*/	
+@font-face {
+    font-family: forte;
+    src: url(font/FORTE.TTF);
+}
+@font-face {
+    font-family: open sans;
+    src: url(font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: open sans light;
+    src: url(font/OpenSans-Light.ttf);
+}
+*{
+	font-family:"open sans",Verdana,sans-serif;
+}
+html{
+	min-height:100vh;
+	position:relative;
+}
+h1,h2,h3{
+	font-weight:500;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+.hidden {
+	display:none !important;
+}
+
+/****header****/
+header{
+	background-color:rgba(255,255,255,0.9);
+	box-shadow:0px -9px 9px 6px black;
+	position:fixed;
+	width:100%;
+	max-height:60px;
+}
+header a{
+	color:inherit;
+	text-decoration:inherit;
+	font-family:inherit;
+}
+header img{
+	height:50px;
+	margin:0px 0px 0px 100px;
+	float:right;
+}
+header h1{
+	font-family:forte;
+	font-size:40px;
+	display:inline;
+	margin: 0px 0px 0px 50px;
+}
+header h2{
+	font-family:forte;
+	font-size:30px;
+	display:inline;
+	margin: 10px 10px 0px 0px;
+	float:right;
+}
+header li:hover .dropmenu{
+	visibility:visible;
+}
+/***footer**/
+footer{
+	background-color:white;
+	text-align:center;
+	bottom:0px;
+	width:100%;
+	position:absolute;
+}
+footer i{
+	font-size:40px !important;
+	margin:0px 20px;
+}
+footer p{
+	margin:0px;
+}
+footer a{
+	color:inherit;
+	text-decoration:inherit;
+}
+.bottom{
+	background-color:black;
+	color:white;
+	padding:10px 80px;
+}
+.bottom p{
+	display:inline;
+}
+
+/*********index*********/
+.main01{
+	margin:auto;
+	width:650px;
+	padding:180px 0px 0px 10px;
+	text-align:center;
+}
+.main01 img{
+	height:75px;
+}
+.bold{
+	font-weight:bold;
+}
+.purple{
+	color:purple;
+	font-weight:bold;
+}
+.pink{
+	color:hotpink;
+	font-weight:bold;
+}
+.gold{
+	color:goldenrod;
+	font-weight:bold;
+}
+.verd-big{
+	font-family:Verdana;
+	font-size:28px;
+}
+.fort-big{
+	font-family:"forte";
+	font-size:28px;
+}
+.h01{
+	font-weight:800;
+}
+.p01{
+	margin:0px 10px 0px 0px;
+	font-size:20px;
+	font-family:"open sans light";
+}
